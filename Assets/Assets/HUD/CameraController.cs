@@ -7,6 +7,9 @@ public class CameraController : MonoBehaviour
     // Camera movement controll
     public float movSpeed = 20f;
     public float BorderThikness = 10f;
+    public float antTotal;
+    public float antGrind;
+    public float antScout;
 
     // Camera spectre limit
     public Vector2 limit;
