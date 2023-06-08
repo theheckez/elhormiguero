@@ -7,9 +7,6 @@ public class CameraController : MonoBehaviour
     // Camera movement controll
     public float movSpeed = 20f;
     public float BorderThikness = 10f;
-    public float antTotal;
-    public float antGrind;
-    public float antScout;
 
     // Camera spectre limit
     public Vector2 limit;
@@ -23,7 +20,7 @@ public class CameraController : MonoBehaviour
     void Update()
     {
         Vector3 pos = transform.position;
-        
+
         if (Input.GetKey("w") || Input.mousePosition.y >= Screen.height - BorderThikness)
         {
             pos.y += movSpeed * Time.deltaTime;
@@ -49,9 +46,11 @@ public class CameraController : MonoBehaviour
 
         pos.x = Mathf.Clamp(pos.x, -limit.x, limit.x);
         pos.y = Mathf.Clamp(pos.y, -limit.y, limit.y);
-        //pos.z = Mathf.Clamp(pos.z, minZ, maxZ);
-
-
         transform.position = pos;
+
+        if (Input.GetMouseButton(0))
+        {
+
+        }
     }
 }
