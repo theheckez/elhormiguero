@@ -3158,3 +3158,16 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 818.426494 seconds.
+  path: Assets/Assets/Scripts/mantis.cs
+  artifactKey: Guid(68b02a50d78f8a74cb9da6d582c23e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/mantis.cs using Guid(68b02a50d78f8a74cb9da6d582c23e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56b228fdab19c07c5a2e59b4e6707758') in 0.012554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.486851 seconds.
+  path: Assets/Assets/Scripts/soldier.cs
+  artifactKey: Guid(04336c12325153a49927851124b8b1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/soldier.cs using Guid(04336c12325153a49927851124b8b1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96bc915ae68049c0da805d6b68a260be') in 0.008279 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
