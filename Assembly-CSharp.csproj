@@ -76,12 +76,14 @@
     <Compile Include="Assets\Demo\FSM + US in BT demo\Scripts\AlwaysLookAtCamera.cs" />
     <Compile Include="Assets\Intelligent Behaviours GUI Package\GUI Control\Logs.cs" />
     <Compile Include="Assets\Intelligent Behaviours GUI Package\Intelligent Behaviours Package\Behaviour trees API\TreeNode.cs" />
+    <Compile Include="Assets\Assets\Scripts\soldier.cs" />
     <Compile Include="Assets\Intelligent Behaviours GUI Package\GUI Control\Debugger.cs" />
     <Compile Include="Assets\Intelligent Behaviours GUI Package\Intelligent Behaviours Package\Perceptions\TimerPerception.cs" />
     <Compile Include="Assets\Intelligent Behaviours GUI Package\Intelligent Behaviours Package\Utility curves API\Curve.cs" />
     <Compile Include="Assets\Intelligent Behaviours GUI Package\GUI Control\BaseNode.cs" />
     <Compile Include="Assets\Demo\FSM demo\Scripts\TestBoyFSM.cs" />
     <Compile Include="Assets\Demo\Hierarchical FSM demo\Scripts\DetectCar.cs" />
+    <Compile Include="Assets\Assets\Scripts\mantis.cs" />
     <Compile Include="Assets\Intelligent Behaviours GUI Package\Intelligent Behaviours Package\Utility curves API\Factor.cs" />
     <Compile Include="Assets\Demo\Hierarchical FSM demo\Scripts\VehicleFSM.cs" />
     <Compile Include="Assets\Intelligent Behaviours GUI Package\GUI Control\FSM.cs" />
@@ -112,10 +114,11 @@
     <Compile Include="Assets\Demo\FSM demo\Scripts\WatchingPerception.cs" />
     <Compile Include="Assets\Demo\FSM + US in BT demo\Scripts\MakePizza.cs" />
     <Compile Include="Assets\Intelligent Behaviours GUI Package\GUI Control\ClickableElement.cs" />
-    <Compile Include="Assets\Assets\HUD\Main.cs" />
+    <Compile Include="Assets\Assets\Scripts\Main.cs" />
     <Compile Include="Assets\Intelligent Behaviours GUI Package\Intelligent Behaviours Package\Perceptions\PushPerception.cs" />
     <Compile Include="Assets\Demo\FSM demo\Scripts\ArriveToDestination.cs" />
     <Compile Include="Assets\Intelligent Behaviours GUI Package\GUI Control\XMLElement.cs" />
+    <Compile Include="Assets\Assets\Scripts\FSMTest.cs" />
     <Compile Include="Assets\Demo\Behaviour Tree demo\Scripts\csLightControl.cs" />
     <Compile Include="Assets\Intelligent Behaviours GUI Package\Intelligent Behaviours Package\BehaviourEngine.cs" />
     <Compile Include="Assets\Intelligent Behaviours GUI Package\Intelligent Behaviours Package\Utility curves API\MinFusion.cs" />
@@ -123,7 +126,7 @@
     <Compile Include="Assets\Demo\Behaviour Tree demo\Scripts\TestBoyBT.cs" />
     <Compile Include="Assets\Demo\Behaviour Tree demo\Scripts\DestroyEffect.cs" />
     <Compile Include="Assets\Intelligent Behaviours GUI Package\Intelligent Behaviours Package\FSM API\StateConfigurator.cs" />
-    <Compile Include="Assets\Assets\HUD\CameraController.cs" />
+    <Compile Include="Assets\Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Intelligent Behaviours GUI Package\Intelligent Behaviours Package\Behaviour trees API\ReturnValues.cs" />
     <Compile Include="Assets\Intelligent Behaviours GUI Package\Intelligent Behaviours Package\Behaviour trees API\LeafNode.cs" />
     <Compile Include="Assets\Intelligent Behaviours GUI Package\Intelligent Behaviours Package\Perceptions\Perception.cs" />
@@ -143,7 +146,6 @@
     <Compile Include="Assets\Intelligent Behaviours GUI Package\GUI Control\Styles.cs" />
     <Compile Include="Assets\Demo\FSM demo\Scripts\ChickenFSM.cs" />
     <Compile Include="Assets\Intelligent Behaviours GUI Package\Intelligent Behaviours Package\FSM API\State.cs" />
-    <Compile Include="Assets\Assets\Scripts\FSMTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Intelligent Behaviours GUI Package\GUI Control\Resources\ScriptTemplates\Machine_Template.cs.txt" />

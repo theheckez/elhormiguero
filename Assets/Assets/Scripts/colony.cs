@@ -6,6 +6,7 @@ public class colony : MonoBehaviour
 {
     public explorer explorerPrefab;
     public int numSpawn = 10;
+    GameObject[] explorers;
 
     // Start is called before the first frame update
     void Start()
@@ -14,6 +15,7 @@ public class colony : MonoBehaviour
         {
             SpawnAnt();
         }
+        explorers = GameObject.FindGameObjectsWithTag("explorer");
     }
 
     void SpawnAnt()
@@ -24,6 +26,9 @@ public class colony : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        foreach (GameObject exp in explorers)
+        {
+
+        }
     }
 }

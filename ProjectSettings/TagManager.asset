@@ -6,6 +6,8 @@ TagManager:
   tags:
   - explorer
   - food
+  - enemy
+  - soldier
   layers:
   - Default
   - TransparentFX
